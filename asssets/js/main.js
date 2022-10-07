@@ -1,6 +1,6 @@
 //search
-const navbarSearch = document.querySelector('.navbar--list__search')
-const navbarSearchForm = document.querySelector('.navbar--list__search form')
+const navbarSearch = document.querySelector('.navbar--list__search a')
+const navbarSearchForm = document.querySelector('.navbar--form')
 navbarSearch.addEventListener('click', function(){
 	if(navbarSearchForm.classList.contains('active')){
 		navbarSearchForm.classList.remove('active')
@@ -153,7 +153,7 @@ class SLIDER{
 		}, this.timeMove + 200);
 	  }
 	}
-  }
+}
   const sliders = document.querySelectorAll('.slider')
   for(const slider of sliders){
 	const autoplay = slider.hasAttribute('autoplay') ? true : false

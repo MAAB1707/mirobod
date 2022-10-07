@@ -9,6 +9,11 @@
 	src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
 	font-weight: 600;
 }
+@font-face{
+	font-family: 'montserat';
+	src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: 800;
+}
 /*Lato*/
 @font-face{
 	font-family: 'Lato';
